@@ -2,7 +2,7 @@
 
 使用 Python 复刻的 Google Chrome 小游戏
 
-## ⌨ 开发环境
+## ⌨️ 开发环境
 
 - **操作系统**
   - Windows 11
