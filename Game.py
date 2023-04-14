@@ -1,7 +1,9 @@
 import core
 import sys
+import time
 import random
 import pygame
+import sqlite3
 from modules import *
 
 
@@ -104,13 +106,26 @@ def main(highest_score):
         clock.tick(core.FPS)
 
         if dino.is_dead:
+            localtime = time.time()
+            c.execute("INSERT INTO record (unix_timestamp, score) VALUES (?,?);", (localtime, score))
+            conn.commit()
             break
 
     return GameEndInterface(screen, core), highest_score
 
 
 if __name__ == '__main__':
-    highest_score = 0
+    conn = sqlite3.connect('history.db')
+    c = conn.cursor()
+    c.execute("CREATE TABLE IF NOT EXISTS record (unix_timestamp INT PRIMARY KEY, score SMALLINT NOT NULL);")
+    c.execute("SELECT MAX(score) FROM record;")
+    rows = c.fetchall()
+    for row in rows:
+        highest_score = row[0]
+    if not str(highest_score).isdigit():
+        highest_score = 0
     while True:
         flag, highest_score = main(highest_score)
         if not flag: break
+    conn.commit()
+    conn.close()
