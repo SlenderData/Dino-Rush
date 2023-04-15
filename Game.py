@@ -10,7 +10,7 @@ from modules import *
 def main(highest_score):
     pygame.init()
     screen = pygame.display.set_mode(core.SCREENSIZE)
-    pygame.display.set_caption('毕业设计_马云骥_12042034')
+    pygame.display.set_caption('Dino Rush')
 
     sounds = {}
     for key, value in core.AUDIO_PATHS.items():
