@@ -106,8 +106,7 @@ def main(highest_score):
         clock.tick(core.FPS)
 
         if dino.is_dead:
-            localtime = time.time()
-            c.execute("INSERT INTO record (unix_timestamp, score) VALUES (?,?);", (localtime, score))
+            c.execute("INSERT INTO record (unix_timestamp, score) VALUES (?,?);", (time.time(), score))
             conn.commit()
             break
 
