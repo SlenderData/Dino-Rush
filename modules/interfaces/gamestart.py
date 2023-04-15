@@ -10,7 +10,7 @@ def GameStartInterface(screen, sounds, cfg):
     gamestart_text01_rect.centerx = cfg.SCREENSIZE[0] / 2
     gamestart_text01_rect.centery = cfg.SCREENSIZE[1] * 0.35
     font02 = pygame.font.Font(cfg.FONT_PATHS['joystix'], 18)
-    gamestart_text02 = font02.render("DESIGNED BY MAYUNJI", True, (83, 83, 83))
+    gamestart_text02 = font02.render("DESIGNED BY SLENDERDATA", True, (83, 83, 83))
     gamestart_text02_rect = gamestart_text02.get_rect()
     gamestart_text02_rect.centerx = cfg.SCREENSIZE[0] / 2
     gamestart_text02_rect.centery = cfg.SCREENSIZE[1] * 0.45
