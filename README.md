@@ -21,6 +21,17 @@
 
 ![screenshot_3](screenshots/screenshot_3.png)
 
+## ❓ 如何运行游戏
+
+1. 确保已安装 `Python` 和 `Pygame` 库
+2. 克隆或下载本仓库的代码文件
+3. 在终端或命令行界面中，进入代码文件所在的目录
+4. 运行以下命令启动游戏：
+
+   ```shell
+   python Game.py
+   ```
+
 ## 🎮 游戏操作说明
 
 - 按下空格键或向上键：恐龙跳跃
