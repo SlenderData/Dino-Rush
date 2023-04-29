@@ -4,14 +4,35 @@
 
 ## ✨ 主要特点
 
-1. 使用开源像素绘画软件 `Asprite` 重新绘制了恐龙等界面元素
-2. 使用经典的像素风格街机游戏字体 `Joystix Monospace` 渲染字符元素
-3. 使用 Python 集成的 `SQLite` 来存储每次游玩结束时的 UNIX 时间戳及分数信息
+- 使用简单的操作（空格键或向上键跳跃，向下键下蹲）控制恐龙的动作
+- 随机生成云朵、仙人掌和翼龙作为障碍物
+- 实时更新得分和最高分，并提供相应的音效提示
+- 使用开源像素绘画软件 `Asprite` 重新绘制了恐龙等界面元素
+- 使用经典的像素风格街机游戏字体 `Joystix Monospace` 渲染字符元素
+- 使用 Python 集成的 `SQLite` 来存储每次游玩结束时的 UNIX 时间戳及分数信息
+
+## 🖼️ 游戏截图
+
+在游戏运行过程中，玩家可以看到恐龙、障碍物、云朵以及当前得分和最高分。
+
+![screenshot_1](screenshots/screenshot_1.png)
+
+![screenshot_2](screenshots/screenshot_2.png)
+
+![screenshot_3](screenshots/screenshot_3.png)
+
+## 🎮 游戏操作说明
+
+- 按下空格键或向上键：恐龙跳跃
+- 按住向下键：恐龙下蹲
+- 松开向下键：恐龙恢复站立状态
 
 ## ⌨️ 开发环境
 
 - **操作系统**
-  - Windows 11
+  - Windows
+  - macOS
+  - Linux
 - **Python 环境**
   - Python 3.11
 - **使用到的软件**
@@ -20,7 +41,7 @@
     - [GitHub](https://github.com/aseprite/aseprite/)
     - [Steam](https://store.steampowered.com/app/431730/Aseprite/)
 - **Python 需要额外添加的软件包**
-  - pygame
+  - Pygame
 
 ## 📄 使用许可
 
