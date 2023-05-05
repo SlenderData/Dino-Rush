@@ -15,11 +15,11 @@
 
 在游戏运行过程中，玩家可以看到恐龙、障碍物、云朵以及当前得分和最高分。
 
-![screenshot_1](screenshots/screenshot_1.png)
+![screenshot-1](https://raw.githubusercontent.com/SlenderData/img/main/images/2023/05/04/23-28-51-af3e5578541894b0b485c4542a2e4ba1-screenshot-1-9ec11a.png)
 
-![screenshot_2](screenshots/screenshot_2.png)
+![screenshot-2](https://raw.githubusercontent.com/SlenderData/img/main/images/2023/05/04/23-29-14-a58c0c13db7c36904defd7b7bfb8d27a-screenshot-2-3096de.png)
 
-![screenshot_3](screenshots/screenshot_3.png)
+![screenshot-3](https://raw.githubusercontent.com/SlenderData/img/main/images/2023/05/04/23-29-44-42fc281bf87d50fd3edb5c5785f71c2a-screenshot-3-862159.png)
 
 ## ❓ 如何运行游戏
 
